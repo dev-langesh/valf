@@ -1,0 +1,31 @@
+{
+  "name": "valf",
+  "version": "1.0.0",
+  "description": "validate emails, passwords, strength of passwords, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-langesh/valf.git"
+  },
+  "keywords": [
+    "validate",
+    "form",
+    "email",
+    "password",
+    "password-strength-calculator",
+    "validate-email",
+    "validate-password"
+  ],
+  "author": "Langesh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dev-langesh/valf/issues"
+  },
+  "homepage": "https://github.com/dev-langesh/valf#readme",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
