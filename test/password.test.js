@@ -37,4 +37,11 @@ describe("password validation", () => {
       requirements: ["Required a symbol"],
     });
   });
+
+  test("name present in password", () => {
+    expect(validatePassword("Langesh@123", "langesh@gmail.com")).toMatchObject({
+      requirements: ["Remove your name or email in the password"],
+      strength: 80,
+    });
+  });
 });

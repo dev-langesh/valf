@@ -6,7 +6,6 @@ describe("validate email", () => {
   });
 
   test("should return false", () => {
-    console.log(validateEmail("langesh"));
     expect(validateEmail("langesh")).toBe(false);
   });
 });
