@@ -106,9 +106,11 @@ validateAge(age, { $lt: 20 });
 
 ### Validate Name
 
-Condition:
-
-- should contain only alphabets , numbers , symbols like underscore and hyphen
+Should contain
+- only alphabets
+- numbers
+- underscore 
+- hyphen
 
 ```js
 const { validateName } = require("valf");
