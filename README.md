@@ -17,7 +17,7 @@ valf can validate your
  $ npm i valf
 ```
 
-Alternatively you can use `yarn`:
+Alternatively you can use yarn
 
 ```sh
  $ yarn add valf
@@ -145,6 +145,20 @@ validateMobileNumber("IN", 7387634562);
 validateMobileNumber("IN", 4516273893);
 // return false
 ```
+
+Some other valid formats:
+
+- 9883443344
+- 09883443344
+- 919883443344
+- 0919883443344
+- +919883443344
+- +91-9883443344
+- 0091-9883443344
+- +91 -9883443344
+- +91- 9883443344
+- +91 - 9883443344
+- 0091 - 9883443344
 
 ### Other Methods
 
